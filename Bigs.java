@@ -35,7 +35,6 @@ public class Bigs {
 				sum_arr[i+1] = rest;
 				}
 			}
-		//System.out.println(sum_arr.length);
 		return sum_arr;
 	}
 			
@@ -52,7 +51,6 @@ public class Bigs {
 			s += n[i];
 		}
 		System.out.println(s);
-		//System.out.println("length is " + s.length());
 	}
 	
 	// konstruiert ein einstelliges Ziffernfeld aus d
@@ -99,7 +97,6 @@ public class Bigs {
 	// Umwandlung einer int-Zahl in ein Ziffernfeld	
 	static int[ ] fromInt(int n) { //in reversed order
 		int len = String.valueOf(n).length();
-		//System.out.println(len);
 		int []arr = new int[len];
 		for (int i = 0; i < len; i++) {
 			arr[i] = (int) (n % 10);
@@ -142,7 +139,6 @@ public class Bigs {
 			if (i == n.length-1 && rest_mult > 0 && count > n.length)
 				arr[i+1] = rest_mult;
 		}
-		//System.out.println(arr.length);
 		return arr;
 	}
 
@@ -171,7 +167,6 @@ public class Bigs {
 				counter++;
 			}
 		}
-		//System.out.println(sum.length);
 		return sum;
 	}
 	
