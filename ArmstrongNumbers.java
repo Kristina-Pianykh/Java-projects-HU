@@ -2,7 +2,7 @@ public class ArmstrongNumbers {
 	    /**
      * 
      * @param args
-     *        Returns as many Armstrong numbers as the number passed as a command-line argument
+     *        Returns as many Armstrong numbers as stipulated by a command-line argument
      */
 	public static void main(String[] args) {
 		int n = Integer.parseInt(args[0]);
